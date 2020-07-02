@@ -1,0 +1,10 @@
+package com.internship.respository;
+
+import com.internship.entity.User;
+import org.springframework.data.repository.CrudRepository;
+
+public interface Repository extends CrudRepository<userId,String> {
+
+    // Optional<Vehicle> findByStrmake(String strVehicleName);
+
+}
