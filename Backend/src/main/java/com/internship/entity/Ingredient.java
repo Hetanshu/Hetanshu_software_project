@@ -11,6 +11,7 @@ public class Ingredient {
     private String ingredientName;
 
     public Ingredient() { this.ingredientId = UUID.randomUUID().toString(); }
+    public Ingredient(String ingredientName){this.ingredientName = ingredientName;}
 
 
     public String getIngredientId() { return ingredientId; }

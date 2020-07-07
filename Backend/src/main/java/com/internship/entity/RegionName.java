@@ -10,6 +10,7 @@ public class RegionName {
     private String regionName;
 
     public RegionName() { this.regionId = UUID.randomUUID().toString(); }
+    public RegionName(String regionName){this.regionName = regionName;}
 
 
     public String getRegionId() { return regionId; }

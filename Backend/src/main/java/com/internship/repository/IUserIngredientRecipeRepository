@@ -1,0 +1,10 @@
+package com.internship.respository;
+
+import com.internship.entity.UserIngredientRecipe;
+import org.springframework.data.repository.CrudRepository;
+
+public interface IUserIngredientRecipeRepository extends CrudRepository<UserIngredientRecipe,int> {
+
+    // Optional<User> findByUserIngredientRecipe(int ingredientId);
+
+}
